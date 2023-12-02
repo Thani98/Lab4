@@ -1,0 +1,34 @@
+module Bank2Accounts;
+
+create OUT : Accounts from IN : Bank;
+
+helper context Bank!Customer def: isCompany(): Boolean =
+	self.companyName.oclIsUndefined();
+	
+rule Customer2PersonalAccount {
+	from
+		s: Bank!Customer (not s.isCompany())
+	to 
+		t: Accounts!PersonalCustomer (
+			fullName <- 'a' + 'b'
+		)
+}
+
+rule Customer2CompanyAccount {
+	from 
+		s: Bank!Customer (s.isCompany())
+	to
+		t: Accounts!BusinessCustomer (
+			fullName <- s.companyName
+		)
+}
+
+rule Account2BankAccount {
+	from
+		a: Bank!Account
+	to
+		t: Accounts!Account (
+			number <- a.number,
+			primaryOwner <- thisModule.resolveTemp(a.customer, 't')
+		)
+}
