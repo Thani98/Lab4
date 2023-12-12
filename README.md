@@ -25,7 +25,7 @@ First I have created the UML in UMLDesigner.
 These are the project files for code generation.
 ![the files ](https://github.com/Thani98/Lab4/assets/148690401/3eda10bb-9307-41f3-8c3d-ba7b16569454)
 
-And theis is an example when I run the generation and get the Src-gen and this is one of them.
+And this is an example when I run the generation and get the Src-gen and this is one of them.
 ![ex_lass](https://github.com/Thani98/Lab4/assets/148690401/3b8e28fb-8576-4373-ba72-3c7c35a0c462)
 
 The last part is I created a UI launcher.
