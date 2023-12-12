@@ -18,6 +18,25 @@ And then the Running the transformation
 And thses are all the files in the project 
 ![image](https://github.com/Thani98/Lab4/assets/148690401/2773bbd9-2aa7-411b-b072-b5436118b47c)
 
+## Task2
+First I have created the UML in UMLDesigner.
+![uml](https://github.com/Thani98/Lab4/assets/148690401/485c7d69-a49c-4dcc-9491-d3f6b06579a9)
+
+These are the project files for code generation.
+![the files ](https://github.com/Thani98/Lab4/assets/148690401/3eda10bb-9307-41f3-8c3d-ba7b16569454)
+
+And theis is an example when I run the generation and get the Src-gen and this is one of them.
+![ex_lass](https://github.com/Thani98/Lab4/assets/148690401/3b8e28fb-8576-4373-ba72-3c7c35a0c462)
+
+The last part is I created a UI launcher.
+![testing last part ](https://github.com/Thani98/Lab4/assets/148690401/4edcfb74-af07-4aec-9921-e9f71d46ab08)
+
+
+
+
+
+
+
 
 
 
